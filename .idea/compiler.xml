@@ -7,13 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springframework-lesson4-AOP" />
+        <module name="springframework-lesson1-context" />
         <module name="springframework-lesson2-autowiring" />
-        <module name="spring-context-e1" />
         <module name="springframework-lesson3-jdbc" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="springframework-lesson1-context" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>
