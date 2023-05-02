@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springframework-lesson4-AOP" />
         <module name="springframework-lesson1-context" />
+        <module name="springframework-lesson5-Transactional" />
         <module name="springframework-lesson2-autowiring" />
         <module name="springframework-lesson3-jdbc" />
       </profile>
