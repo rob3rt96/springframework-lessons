@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springframework-lesson6-TransactionPropagation" />
         <module name="springframework-lesson4-AOP" />
         <module name="springframework-lesson1-context" />
         <module name="springframework-lesson5-Transactional" />

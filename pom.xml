@@ -14,6 +14,7 @@
         <module>springframework-lesson3-jdbc</module>
         <module>springframework-lesson4-AOP</module>
         <module>springframework-lesson5-Transactional</module>
+        <module>springframework-lesson6-TransactionPropagation</module>
     </modules>
 
     <properties>
