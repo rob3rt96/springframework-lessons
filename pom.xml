@@ -15,6 +15,7 @@
         <module>springframework-lesson4-AOP</module>
         <module>springframework-lesson5-Transactional</module>
         <module>springframework-lesson6-TransactionPropagation</module>
+        <module>springframework-lesson7-Transaction_Isolation</module>
     </modules>
 
     <properties>
