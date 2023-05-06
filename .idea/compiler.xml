@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springframework-lesson9-REST_Endpoints" />
         <module name="springframework-lesson5-Transactional" />
         <module name="springframework-lesson2-autowiring" />
         <module name="springframework-lesson8-springboot101" />
@@ -20,6 +21,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springframework-lesson8-springboot101" options="-parameters" />
+      <module name="springframework-lesson9-REST_Endpoints" options="-parameters" />
     </option>
   </component>
 </project>
