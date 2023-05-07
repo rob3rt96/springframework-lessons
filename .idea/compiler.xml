@@ -11,6 +11,7 @@
         <module name="springframework-lesson2-autowiring" />
         <module name="springframework-lesson8-springboot101" />
         <module name="springframework-lesson6-TransactionPropagation" />
+        <module name="springframework-lesson10-More_on_REST" />
         <module name="springframework-lesson7-Transaction_Isolation" />
         <module name="springframework-lesson4-AOP" />
         <module name="springframework-lesson1-context" />
@@ -20,6 +21,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springframework-lesson10-More_on_REST" options="-parameters" />
       <module name="springframework-lesson8-springboot101" options="-parameters" />
       <module name="springframework-lesson9-REST_Endpoints" options="-parameters" />
     </option>
