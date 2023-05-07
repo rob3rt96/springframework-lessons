@@ -1,6 +1,7 @@
 package com.robertp1.rest_endpoints.controllers;
 
 import com.robertp1.rest_endpoints.dto.Person;
+import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -44,5 +45,11 @@ public class HelloController {
         p2.setName("John");
 
         return List.of(p1, p2);
+    }
+
+    @GetMapping(path = "/statustest")
+    public void statusTest(HttpServletResponse response) {      /* With HttpServletResponse we can manipulate the Response sent to the server. It will be injected by Spring from the Context. */
+
+        response.setStatus(HttpServletResponse.SC_NO_CONTENT);
     }
 }
