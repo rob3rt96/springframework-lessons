@@ -18,4 +18,8 @@ public class ProductService {
     public void addProduct(Product p) {
         productRepository.save(p);
     }
+
+    public Product getProduct(String name) {
+        return productRepository.findProductByName(name);
+    }
 }
