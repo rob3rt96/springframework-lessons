@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springframework-lesson9-REST_Endpoints" />
         <module name="springframework-lesson11-SpringData" />
+        <module name="springframework-lesson12-Contracts_in_SpringData" />
         <module name="springframework-lesson5-Transactional" />
         <module name="springframework-lesson2-autowiring" />
         <module name="springframework-lesson8-springboot101" />
@@ -24,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springframework-lesson10-More_on_REST" options="-parameters" />
       <module name="springframework-lesson11-SpringData" options="-parameters" />
+      <module name="springframework-lesson12-Contracts_in_SpringData" options="-parameters" />
       <module name="springframework-lesson8-springboot101" options="-parameters" />
       <module name="springframework-lesson9-REST_Endpoints" options="-parameters" />
     </option>

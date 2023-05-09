@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(path = "/product")      // By putting this annotation here, we are specifying a "path" that will we concatenated, or prefixed, before all the endpoints defined in the class.
 public class ProductController {
 
-    private ProductService productService;
+    private final ProductService productService;
 
     @Autowired
     public ProductController(ProductService productService) {
