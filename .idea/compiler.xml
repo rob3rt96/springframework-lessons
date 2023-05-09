@@ -9,15 +9,16 @@
         <module name="springframework-lesson9-REST_Endpoints" />
         <module name="springframework-lesson11-SpringData" />
         <module name="springframework-lesson12-Contracts_in_SpringData" />
-        <module name="springframework-lesson5-Transactional" />
         <module name="springframework-lesson2-autowiring" />
         <module name="springframework-lesson8-springboot101" />
         <module name="springframework-lesson6-TransactionPropagation" />
         <module name="springframework-lesson10-More_on_REST" />
-        <module name="springframework-lesson7-Transaction_Isolation" />
         <module name="springframework-lesson4-AOP" />
+        <module name="springframework-lesson5-Transactional" />
+        <module name="springframework-lesson7-Transaction_Isolation" />
         <module name="springframework-lesson1-context" />
         <module name="springframework-lesson3-jdbc" />
+        <module name="springframework-lesson13-Contract_in_SpringSecurity" />
       </profile>
     </annotationProcessing>
   </component>
@@ -26,6 +27,7 @@
       <module name="springframework-lesson10-More_on_REST" options="-parameters" />
       <module name="springframework-lesson11-SpringData" options="-parameters" />
       <module name="springframework-lesson12-Contracts_in_SpringData" options="-parameters" />
+      <module name="springframework-lesson13-Contract_in_SpringSecurity" options="-parameters" />
       <module name="springframework-lesson8-springboot101" options="-parameters" />
       <module name="springframework-lesson9-REST_Endpoints" options="-parameters" />
     </option>
