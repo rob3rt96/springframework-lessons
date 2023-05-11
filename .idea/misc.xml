@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/springframework-lesson11-SpringData/pom.xml" />
         <option value="$PROJECT_DIR$/springframework-lesson12-Contracts_in_SpringData/pom.xml" />
         <option value="$PROJECT_DIR$/springframework-lesson13-Contract_in_SpringSecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/springframework-lesson14-Web_scopes/pom.xml" />
       </list>
     </option>
   </component>
