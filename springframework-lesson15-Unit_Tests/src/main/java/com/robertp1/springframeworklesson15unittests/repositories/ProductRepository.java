@@ -10,4 +10,8 @@ public class ProductRepository {
     public List<String> getProductNames() {
         return List.of("aa", "bbb", "cccc", "dd", "eee");
     }
+
+    public void addProduct(String name) {
+
+    }
 }
